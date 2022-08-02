@@ -1,0 +1,17 @@
+{
+  "name": "vybe-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.50.1",
+    "near-api-js": "^0.45.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  }
+}
