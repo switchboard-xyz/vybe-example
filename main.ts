@@ -15,7 +15,8 @@ async function doQuery(query: string): Promise<any> {
 }
 
 async function getLeaseFund() {
-  let query = `query QUERY {
+  let query = `
+  query QUERY {
     switchboard_switchboard_v2_m_events(
       where: {name: {_eq: "LeaseFundEvent"}, blockTime: {_gt: "1656637200", _lt: "1659315600"}}
     ) {
